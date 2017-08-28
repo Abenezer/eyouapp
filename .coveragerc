@@ -1,0 +1,3 @@
+[run]
+source = eyou
+omit = eyou/test*

@@ -1,0 +1,5 @@
+      [paste.app_factory]
+      main = eyou:main
+      [console_scripts]
+      initialize_Eyou_db = eyou.scripts.initializedb:main
+      
