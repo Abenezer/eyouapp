@@ -15,7 +15,7 @@ if __name__ == '__main__':
         config = os.path.join(here, 'production.ini')
     else:
         ip = '0.0.0.0'                                                              #localhost
-        port = 6543
+        port = 8080
         config = os.path.join(here, 'development.ini')
 
     app = get_app(config, 'main')                                                   #find 'main' method in __init__.py.  That is our wsgi app
