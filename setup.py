@@ -22,7 +22,8 @@ requires = [
     'marshmallow',
     'pyramid_jwt',
     'pyramid_services',
-    'cloudinary', 'geopy'
+    'cloudinary', 'geopy',
+     'psycopg2'
     ]
 
 tests_require = [
