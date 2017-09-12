@@ -16,7 +16,7 @@ if __name__ == '__main__':
     else:
         ip = '0.0.0.0'                                                              #localhost
         port = 8080
-        config = os.path.join(here, 'development.ini')
+        config = os.path.join(here, 'production.ini')
 
     app = get_app(config, 'main')                                                   #find 'main' method in __init__.py.  That is our wsgi app
     settings = get_appsettings(config, 'main')                                      #don't really need this but is an example on how to get settings from the '.ini' files
